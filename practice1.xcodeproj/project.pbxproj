@@ -22,6 +22,8 @@
 		CE9BA44628C877D2006CDB21 /* practice1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BA44528C877D2006CDB21 /* practice1Tests.swift */; };
 		CE9BA45028C877D2006CDB21 /* practice1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BA44F28C877D2006CDB21 /* practice1UITests.swift */; };
 		CE9BA45228C877D2006CDB21 /* practice1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BA45128C877D2006CDB21 /* practice1UITestsLaunchTests.swift */; };
+		CEDCA61D28D1DD2100A2701D /* PhotoWallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA61C28D1DD2100A2701D /* PhotoWallController.swift */; };
+		CEDCA61F28D1EA6300A2701D /* BMIComputerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA61E28D1EA6300A2701D /* BMIComputerController.swift */; };
 		CEFEA45728D0295200BC19A6 /* ExchangeRateConvertionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEA45628D0295200BC19A6 /* ExchangeRateConvertionController.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		CE9BA44B28C877D2006CDB21 /* practice1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9BA44F28C877D2006CDB21 /* practice1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice1UITests.swift; sourceTree = "<group>"; };
 		CE9BA45128C877D2006CDB21 /* practice1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEDCA61C28D1DD2100A2701D /* PhotoWallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWallController.swift; sourceTree = "<group>"; };
+		CEDCA61E28D1EA6300A2701D /* BMIComputerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIComputerController.swift; sourceTree = "<group>"; };
 		CEFEA45628D0295200BC19A6 /* ExchangeRateConvertionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateConvertionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,8 @@
 				CE9BA43028C877D1006CDB21 /* SceneDelegate.swift */,
 				CE9BA43228C877D1006CDB21 /* ViewController.swift */,
 				CE9BA43428C877D1006CDB21 /* Main.storyboard */,
+				CEDCA61E28D1EA6300A2701D /* BMIComputerController.swift */,
+				CEDCA61C28D1DD2100A2701D /* PhotoWallController.swift */,
 				CEFEA45628D0295200BC19A6 /* ExchangeRateConvertionController.swift */,
 				CE79A91528CF3FF8006A2C03 /* DragonBallController.swift */,
 				CE79A91328CF2EA7006A2C03 /* SpeakerVoiceController.swift */,
@@ -281,8 +287,10 @@
 			files = (
 				CE79A91428CF2EA7006A2C03 /* SpeakerVoiceController.swift in Sources */,
 				CE79A91028CEFFBA006A2C03 /* GuessNumberText.swift in Sources */,
+				CEDCA61D28D1DD2100A2701D /* PhotoWallController.swift in Sources */,
 				CE9BA43328C877D1006CDB21 /* ViewController.swift in Sources */,
 				CE79A90E28CEEAC7006A2C03 /* GuessTheNumberViewController.swift in Sources */,
+				CEDCA61F28D1EA6300A2701D /* BMIComputerController.swift in Sources */,
 				CEFEA45728D0295200BC19A6 /* ExchangeRateConvertionController.swift in Sources */,
 				CE46E29128D18CAB002E0861 /* PokerController.swift in Sources */,
 				CE79A91228CF13AF006A2C03 /* FastAndFuriousController.swift in Sources */,
