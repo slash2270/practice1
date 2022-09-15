@@ -1,30 +1,29 @@
-////
-////  BMIComputerController.swift
-////  practice1
-////
-////  Created by user on 2022/9/14.
-////
 //
-//import UIKit
+//  BmiComputerController.swift
+//  practice1
 //
-//class BMIComputerController: UIViewController {
+//  Created by user on 2022/9/15.
 //
-//    @IBOutlet weak var textHeight: UITextField!
-//    @IBOutlet weak var textWeight: UITextField!
-//    @IBOutlet weak var btn: UIButton!
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//
-//    }
-//    let weight: Double? = Double(tf_weight.text!)
-//    var height: Double? = Double(tf_height.text!)
-//    if weight == nil || height == nil {
-//    }
-//    height = height! / 100.0
-//    let bmi: Double = weight! / (height!*height!)
-//    label_result.text = "BMI: \(bmi)"
-//    @IBAction func btn(_ sender: Any) {
-//    }
-//}
+
+import UIKit
+
+class BmiComputerController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
